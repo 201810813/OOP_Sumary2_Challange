@@ -6,7 +6,7 @@ protected:
 	string name;
 public:
 	Animal(string name);
-	virtual ~Animal(); //가상소멸자로 자식들로	
+	virtual ~Animal(); // child class will call this destructor	
 public:
 	virtual void MakeSound() = 0;
 };
